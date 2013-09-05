@@ -10,7 +10,7 @@ var RapidCrud = function(){
 	this.TabHandler = null;
 	
 	this.GetMainTabMetaData = function() {
-		RequestObject = new CreateRequestObject("META", "BASE", "NO", 0, 0, "", "", [], [], [], []);
+		RequestObject = new CreateRequestObject("META", "", "BASE", "NO", 0, 0, "", "", [], [], [], []);
 		Communicator("_MainTabCallBack");
 	};
 	
@@ -31,7 +31,7 @@ var RapidCrud = function(){
 	
 	this.GetSubTabMetaData = function(TabEntity) {
 		this.TabHandler.CurrentTab = TabEntity;
-		RequestObject = new CreateRequestObject("META", "SUBTAB", "NO", 0, 0, "", "", [], [], [], []);
+		RequestObject = new CreateRequestObject("META", "", "SUBTAB", "NO", 0, 0, "", "", [], [], [], []);
 		Communicator("_SubTabCallBack");
 	};
 	
@@ -47,7 +47,7 @@ var RapidCrud = function(){
 	};
 	
 	this.GetTabChildMetaData = function(maintab) {
-		RequestObject = new CreateRequestObject("META", maintab, "NO", 0, 0, "", "", [], [], [], []);
+		RequestObject = new CreateRequestObject("META", "", maintab, "NO", 0, 0, "", "", [], [], [], []);
 		Communicator("_TabContentCallBack");
 	};
 	
