@@ -1,0 +1,5 @@
+(function($){
+	$.ConfirmBox = function() {
+		
+	};
+})(jQuery);

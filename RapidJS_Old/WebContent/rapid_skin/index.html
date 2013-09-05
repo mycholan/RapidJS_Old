@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="style/style.css"></link>
+		<script type="text/javascript" src="script/jquery.js"></script>
+		<script type="text/javascript" src="script/script.js"></script>
+	</head>
+	
+	<body>
+		<div class="rapidjs-message-div" id="rapidjs-message-div">
+		
+		</div>
+		
+		<div class="rapidjs-header-div" id="rapidjs-message-div">
+		
+		</div>
+		
+		<div class="rapidjs-body-div">
+			<div class="rapidjs-left-navigation-bar" id="rapidjs-left-navigation-bar"></div>
+			
+			<div class="rapidjs-navigation-resize-bar" id="rapidjs-navigation-resize-bar">
+				<div id="rapidjs-show-hide-navigation" class="rapidjs-show-hide-navigation"></div>
+			</div>
+			
+			<div class="rapidjs-application-work-area-div" id="rapidjs-application-work-area-div">
+				<div class="rapidjs-application-toolbar" id="rapidjs-application-toolbar">					
+	                    <div class="rapidjs-activity-toolbar-container">
+	                        <div class="rapidjs-toolbar-btn-group">
+	                            <button class="button needs-pie mobile-button" onclick="window.open(&quot;http://files.zend.com/help/Mobile/Zend-Server-6/zend-server.htm&quot;);" title="Mobile version">
+	                            </button>
+	                        </div>
+	                        <div class="rapidjs-toolbar-btn-group">
+	                            <button class="button needs-pie feedback-button" onclick="javascript:crlf=&quot;&quot;;h=location.href;t=document.title;e = &quot;&quot; + (window.getSelection ? window.getSelection() :document.getSelection ? document.getSelection() : document.selection.createRange().text); if (e!=null) location=&quot;mailto:documentation@zend.com&quot; + &quot;?Subject= Feedback on Zend Server for page &quot;+ escape(t) + &quot;&amp;Body=&quot; + escape(e).replace(/ /g, &quot;+&quot;) + crlf + &quot; &quot;; void 0" title="Feedback">
+	                            </button>
+	                            <button class="button needs-pie survey-button" onclick="window.open(&quot;https://docs.google.com/spreadsheet/viewform?formkey=dC1scEswTjFia2tDQ3Y5TVJBbkNQcWc6MQ&quot;);" title="Survey">
+	                            </button>
+	                            <button class="button needs-pie documentation-button" onclick=" window.open(&quot;http://www.zend.com/en/resources/zend-documentation/&quot;); " title="Documentation">
+	                            </button>
+	                            <button class="button needs-pie kb-button" onclick=" window.open(&quot;http://kb.zend.com/&quot;); " title="Knowledge Base">
+	                            </button>
+	                            <button class="button needs-pie forums-button" onclick=" window.open(&quot;http://forums.zend.com/viewforum.php?f=8&amp;sid=a0625258b04d09edc76ebd5a1f014ccf&quot;); " title="Zend Forums">
+	                            </button>
+	                            <button class="button needs-pie zend-button" onclick=" window.open(&quot;http://www.zend.com&quot;); " title="Zend.com">
+	                            </button>
+	                            <button class="button needs-pie twitter-button" onclick="window.open(&quot;http://twitter.com/ZendDocs&quot;);" title="Daily Tips via Twitter">
+	                            </button>
+	                        </div>
+	                        <div class="rapidjs-toolbar-btn-group">
+	                            <button class="button needs-pie print-button" title="Print">
+	                            </button>
+	                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+	                            </button>
+	                        </div>
+	                        <div class="rapidjs-toolbar-btn-group">
+	                            <div class="star-buttons loading">
+	                                <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic" style="opacity: 1;" data-current-state="1">
+	                                </div>
+	                                <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic" style="opacity: 1;" data-current-state="1">
+	                                </div>
+	                                <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic" style="opacity: 1;" data-current-state="1">
+	                                </div>
+	                                <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic" style="opacity: 1;" data-current-state="1">
+	                                </div>
+	                                <div class="button star-button topic-ratings-empty-button" data-state1-class="topic-ratings-empty-button" data-state2-class="topic-ratings-button" title="Click a star to rate this topic" data-state1-title="Click a star to rate this topic" data-state2-title="Click a star to rate this topic" style="opacity: 1;" data-current-state="1">
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <div class="rapidjs-toolbar-btn-group">
+	                            <button class="button needs-pie login-button" data-state1-class="login-button" data-state2-class="edit-user-profile-button" data-state2-title="Edit user profile" title="Login" data-state1-title="Login">
+	                            </button>
+	                        </div>
+	                    </div>
+	                    <div class="rapidjs-setting-toolbar-container">
+	                        <div class="rapidjs-toolbar-btn-group">
+	                            <button class="button needs-pie remove-highlight-button" onclick="javascript:window.topic.removeSearch();" title="Remove highlighting">
+	                            </button>
+	                            <button class="button needs-pie previous-topic-button" title="Navigate previous">
+	                            </button>
+	                            <div class="button current-topic-index-button disabled"><span class="sequence-index"></span> of <span class="sequence-total"></span></div>
+	                            <button class="button needs-pie next-topic-button" title="Navigate next">
+	                            </button>
+	                        </div>
+	                    </div>	                
+				</div>
+				<div class="rapidjs-application-client-area-div" id="rapidjs-application-client-area-div"></div>
+			</div>
+		</div>
+	</body>
+</html>

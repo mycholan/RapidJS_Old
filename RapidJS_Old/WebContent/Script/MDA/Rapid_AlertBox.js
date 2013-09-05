@@ -1,0 +1,5 @@
+(function($){
+	$.AlertBox = function() {
+		
+	};
+})(jQuery);
